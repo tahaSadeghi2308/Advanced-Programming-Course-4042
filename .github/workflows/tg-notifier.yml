@@ -8,18 +8,13 @@ jobs:
   telegram:
     runs-on: ubuntu-latest
     steps:
-      - uses: appleboy/telegram-action@master
-        with:
-          to: ${{ secrets.TELEGRAM_CHAT_ID }}
-          token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          message: |
-            🕊️ پیک کوچولو از راه رسید
-
-            ⏳ تا قبل از فراموشی انجامش بده
-            
-            موضوع: ${{ github.event.pull_request.title }}
-            
-            توضیحات:
-
-            ${{ github.event.pull_request.body }}
-          parse_mode: markdown
+      - name: Send Telegram Topic Message
+        run: |
+          curl -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+          -H "Content-Type: application/json" \
+          -d "{
+            \"chat_id\": \"${{ secrets.TELEGRAM_CHAT_ID }}\",
+            \"message_thread_id\": ${{ secrets.THREAD_ID }},
+            \"parse_mode\": \"Markdown\",
+            \"text\": \"🕊️ پیک کوچولو از راه رسید\n\n⏳ تا قبل از فراموشی انجامش بده\n\nموضوع: ${{ github.event.pull_request.title }}\n\nتوضیحات:\n\n${{ github.event.pull_request.body }}\"
+          }"
