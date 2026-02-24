@@ -2,7 +2,7 @@ name: Telegram PR Notify
 
 on:
   pull_request:
-    types: [opened, closed, reopened]
+    types: [closed]
 
 jobs:
   telegram:
@@ -13,13 +13,13 @@ jobs:
           to: ${{ secrets.TELEGRAM_CHAT_ID }}
           token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           message: |
-            📌 ${{ github.event.action}} Pull Request
+            🕊️ پیک کوچولو از راه رسید
+
+            ⏳ تا قبل از فراموشی انجامش بده
             
-            Title: ${{ github.event.pull_request.title }}
+            موضوع: ${{ github.event.pull_request.title }}
             
-            Description:
+            توضیحات:
 
             ${{ github.event.pull_request.body }}
-            ----------
-            Link: (${{ github.event.pull_request.html_url }})
           parse_mode: markdown
