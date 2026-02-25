@@ -2,6 +2,9 @@
 
 In this lesson, we introduce the fundamental concepts of Object-Oriented Programming (OOP) and understand why it was created.
 
+> **Note:** You can access the video of this workshop [here](https://drive.google.com/file/d/1OQD4jyVVvHGDb0P0s_HZY9EWIB53_C8d/view?usp=sharing).
+
+
 ## Objectives
 
 - Understand the history of Object-Oriented Programming  
@@ -14,38 +17,41 @@ In this lesson, we introduce the fundamental concepts of Object-Oriented Program
 
 ## Table of Contents
 
-- [History \& Inventors](#history--inventors)
-- [The Problem](#the-problem)
-  - [The Procedural Approach](#the-procedural-approach)
-  - [Data and Operations Are Separate](#data-and-operations-are-separate)
-  - [Does It Matter?](#does-it-matter)
-- [The Hero Comes: OOP](#the-hero-comes-oop)
-  - [What Is a Class?](#what-is-a-class)
-  - [Get Help from Sormeh 🐱](#get-help-from-sormeh-)
-  - [Modeling with a Diagram](#modeling-with-a-diagram)
-  - [Modeling in C++ Code](#modeling-in-c-code)
-  - [More Sormeh](#more-sormeh)
-- [Pillars of OOP](#pillars-of-oop)
-  - [Abstraction](#abstraction)
-  - [Encapsulation](#encapsulation)
-  - [Inheritance](#inheritance)
-  - [Polymorphism](#polymorphism)
-- [Relations Between Objects](#relations-between-objects)
-  - [Inheritance (Is-A Relationship)](#inheritance-is-a-relationship)
-  - [Composition (Has-A Relationship)](#composition-has-a-relationship)
-  - [Aggregation](#aggregation)
-  - [More Sormeh 🐾](#more-sormeh-)
-- [Types of Objects](#types-of-objects)
-  - [1. Entity Objects](#1-entity-objects)
-  - [2. Boundary Objects](#2-boundary-objects)
-  - [3. Controller Objects](#3-controller-objects)
-- [MVC Architecture](#mvc-architecture)
-  - [Model](#model)
-  - [View](#view)
-  - [Controller](#controller)
-  - [Why MVC?](#why-mvc)
-- [Hands-On](#hands-on)
-- [Resources](#resources)
+- [Object-Oriented Programming – Lesson 0](#object-oriented-programming--lesson-0)
+  - [Objectives](#objectives)
+  - [Table of Contents](#table-of-contents)
+  - [History \& Inventors](#history--inventors)
+  - [The Problem](#the-problem)
+    - [The Procedural Approach](#the-procedural-approach)
+    - [Data and Operations Are Separate](#data-and-operations-are-separate)
+    - [Does It Matter?](#does-it-matter)
+  - [The Hero Comes: OOP](#the-hero-comes-oop)
+    - [What Is a Class?](#what-is-a-class)
+    - [Get Help from Sormeh 🐱](#get-help-from-sormeh-)
+    - [Modeling with a Diagram](#modeling-with-a-diagram)
+    - [Modeling in C++ Code](#modeling-in-c-code)
+    - [More Sormeh](#more-sormeh)
+  - [Pillars of OOP](#pillars-of-oop)
+    - [Abstraction](#abstraction)
+    - [Encapsulation](#encapsulation)
+    - [Inheritance](#inheritance)
+    - [Polymorphism](#polymorphism)
+  - [Relations Between Objects](#relations-between-objects)
+    - [Inheritance (Is-A Relationship)](#inheritance-is-a-relationship)
+    - [Composition (Has-A Relationship)](#composition-has-a-relationship)
+    - [Aggregation](#aggregation)
+    - [More Sormeh 🐾](#more-sormeh-)
+  - [Types of Objects](#types-of-objects)
+    - [1. Entity Objects](#1-entity-objects)
+    - [2. Boundary Objects](#2-boundary-objects)
+    - [3. Controller Objects](#3-controller-objects)
+  - [MVC Architecture](#mvc-architecture)
+    - [Model](#model)
+    - [View](#view)
+    - [Controller](#controller)
+    - [Why MVC?](#why-mvc)
+  - [Hands-On](#hands-on)
+  - [Resources](#resources)
 
 
 
