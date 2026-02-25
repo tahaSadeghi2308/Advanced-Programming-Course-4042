@@ -16,5 +16,5 @@ jobs:
             \"chat_id\": \"${{ secrets.TELEGRAM_CHAT_ID }}\",
             \"message_thread_id\": ${{ secrets.THREAD_ID }},
             \"parse_mode\": \"Markdown\",
-            \"text\": \"🕊️ پیک کوچولو از راه رسید\n\n⏳ تا قبل از فراموشی انجامش بده\n\nموضوع: ${{ github.event.pull_request.title }}\n\nتوضیحات:\n\n${{ github.event.pull_request.body }}\"
+            \"text\": \"🕊️ پیک کوچولو از راه رسید\n\nموضوع: ${{ github.event.pull_request.title }}\n\nتوضیحات:\n\n${{ github.event.pull_request.body }}\"
           }"
