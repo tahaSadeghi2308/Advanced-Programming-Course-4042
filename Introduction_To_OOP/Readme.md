@@ -14,25 +14,38 @@ In this lesson, we introduce the fundamental concepts of Object-Oriented Program
 
 ## Table of Contents
 
-1. History & Inventors  
-2. The Problem  
-   - The Procedural Approach  
-   - Data and Operations Are Separate  
-   - Does It Matter?  
-3. The Hero Comes: OOP  
-   - What Is a Class?  
-   - Modeling with Diagrams  
-   - Modeling in C++  
-4. Pillars of OOP  
-   - Abstraction  
-   - Encapsulation  
-   - Inheritance  
-   - Polymorphism  
-5. Relations Between Objects  
-   - Inheritance (Is-A)  
-   - Composition (Has-A)  
-   - Aggregation  
-6. Hands-On  
+- [History \& Inventors](#history--inventors)
+- [The Problem](#the-problem)
+  - [The Procedural Approach](#the-procedural-approach)
+  - [Data and Operations Are Separate](#data-and-operations-are-separate)
+  - [Does It Matter?](#does-it-matter)
+- [The Hero Comes: OOP](#the-hero-comes-oop)
+  - [What Is a Class?](#what-is-a-class)
+  - [Get Help from Sormeh 🐱](#get-help-from-sormeh-)
+  - [Modeling with a Diagram](#modeling-with-a-diagram)
+  - [Modeling in C++ Code](#modeling-in-c-code)
+  - [More Sormeh](#more-sormeh)
+- [Pillars of OOP](#pillars-of-oop)
+  - [Abstraction](#abstraction)
+  - [Encapsulation](#encapsulation)
+  - [Inheritance](#inheritance)
+  - [Polymorphism](#polymorphism)
+- [Relations Between Objects](#relations-between-objects)
+  - [Inheritance (Is-A Relationship)](#inheritance-is-a-relationship)
+  - [Composition (Has-A Relationship)](#composition-has-a-relationship)
+  - [Aggregation](#aggregation)
+  - [More Sormeh 🐾](#more-sormeh-)
+- [Types of Objects](#types-of-objects)
+  - [1. Entity Objects](#1-entity-objects)
+  - [2. Boundary Objects](#2-boundary-objects)
+  - [3. Controller Objects](#3-controller-objects)
+- [MVC Architecture](#mvc-architecture)
+  - [Model](#model)
+  - [View](#view)
+  - [Controller](#controller)
+  - [Why MVC?](#why-mvc)
+- [Hands-On](#hands-on)
+- [Resources](#resources)
 
 
 
